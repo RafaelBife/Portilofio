@@ -16,8 +16,12 @@
 }
 body {
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
-    color:var(--cor-secundaria);
+    background-image: url('../img/background-picture.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    /*background-color: var(--cor-primaria);
+    color:var(--cor-secundaria);*/
 }
 
 .cabecalho {
@@ -37,6 +41,7 @@ body {
     color: var(--cor-terciaria);
 }
 .apresentacao {
+    color:var(--cor-secundaria);
     padding: 5% 15%;
     display: flex;
     align-items: center;
