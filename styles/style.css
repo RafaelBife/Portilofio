@@ -143,7 +143,7 @@ body {
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
     }
     .apresentacao__imagem {
         box-shadow: 2vw 3.0vw var(--cor--hover);
