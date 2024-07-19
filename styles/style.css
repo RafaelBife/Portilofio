@@ -18,7 +18,8 @@ body {
     box-sizing: border-box;
     background-image: url('../img/background-picture.jpg');
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     /*background-color: var(--cor-primaria);
     color:var(--cor-secundaria);*/
@@ -147,6 +148,12 @@ body {
     }
     .apresentacao__imagem {
         box-shadow: 2vw 3.0vw var(--cor--hover);
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        background-size: contain;
     }
 }
 
