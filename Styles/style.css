@@ -4,7 +4,7 @@
     --cor-primaria: #1B262C; /*#000000*/
     --cor-secundaria:#BBE1FA; /*#F6F6F6*/
     --cor-terciaria: #22D4FD;
-    --cor--hover: #0F4C75; /*#272727*/
+    --cor--hover: #0F4C75B3; /*B3 NO FINAL DO HEXA PARA OPACIDADE 70%*/
 
     --font-primaria: "Krona One", sans-serif;
     --font-secundaria: "montserrat", sans-serif;
@@ -103,7 +103,7 @@ body {
 }
 
 .apresentacao__links__navegacao:hover {
-    background-color: var(--cor--hover);
+    background-color:var(--cor--hover);
     font-size: 1.625rem;
     font-weight: bold;
     border: 2px solid var(--cor-terciaria);
