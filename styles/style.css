@@ -112,7 +112,7 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
-    max-width: 500px;
+    max-width: 31.25rem;
     border: solid 0.19rem var(--cor-terciaria);
     border-radius:4vw;
     padding: 1%;
